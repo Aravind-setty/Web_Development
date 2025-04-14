@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: bisque;
+}
+
+#mainDiv{
+    width:300px;
+    height: 60%;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 2px solid black;
+}
+
+#outp{
+    background-color: lightslategray;
+    padding: 20px;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    
+}
+
+#num{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0px 30px 5px;
+    align-items: center;
+    gap: 10px;
+    clear: both;
+    
+}
+
+.btn, .btn-ac, .btn-eq{
+    padding: 20px;
+    border-radius: 20%;
+
+}
+
+#idAc{
+    padding: 20px;
+    padding-left: 15px;
+    padding-right: 16px;
+}
+
+.line{
+    align-items: space-evenly;
+}
+
+#pt{
+    text-align: end;
+    display: block;
+}
